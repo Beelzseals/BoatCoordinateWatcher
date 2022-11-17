@@ -1,13 +1,17 @@
 {
   "dependencies": {
-    "csvtojson": "^2.0.10"
+    "csvtojson": "^2.0.10",
+    "dotenv": "^16.0.3",
+    "request": "^2.88.2",
+    "snowpack": "^3.8.8",
+    "socket.io-client": "^4.5.3"
   },
   "name": "coordinateprovider",
   "version": "1.0.0",
-  "main": "coordProvider.js",
-  "devDependencies": {},
+  "main": "readFromFile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "snowpack dev"
   },
   "keywords": [],
   "author": "",
