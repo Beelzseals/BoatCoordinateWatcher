@@ -25,7 +25,7 @@ io.on("connection", (socket) => {
   try {
     console.log("connection established");
     socket.on("send-coords", (coord1, coord2, coord3) => {
-      console.log(`${coord1}, ${coord2}, ${coord3}`);
+      console.log(`${coord1}\n\n ${coord2}\n\n ${coord3}`);
     });
   } catch (err) {
     console.log(err);
